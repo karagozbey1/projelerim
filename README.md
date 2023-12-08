@@ -2,7 +2,7 @@
 
 
 
-package Hazırlık;
+package calculate;
 
 import java.awt.EventQueue;
 
@@ -52,7 +52,9 @@ public class guitest extends JFrame {
 		
 		
 	}
-	
+	// hesaplama işlemini yapan fonksiyon .
+
+ 
 	public void calculater() {
 		switch (operation) {
 		case 1: {
@@ -83,9 +85,9 @@ public class guitest extends JFrame {
 	}
 	
 	
-	/**
-	 * Create the frame.
-	 */
+	
+	// frame oluşturma 
+	 
 	public guitest() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 400, 542);
@@ -132,7 +134,10 @@ public class guitest extends JFrame {
 		panel_1.setBounds(10, 90, 366, 415);
 		contentPane.add(panel_1);
 		panel_1.setLayout(new GridLayout(4, 4, 20, 20));
-		
+
+  	 //  hesap makinesinin sayılar ve işlemler kısmının gösterilmesi . 
+
+  
 		JButton btnNewButton_1 = new JButton("7");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
